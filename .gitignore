@@ -1,0 +1,17 @@
+# KiCad local settings, cache, and editor locks
+*.kicad_prl
+fp-info-cache
+~*.kicad_*.lck
+
+# KiCad autosaves and automatic backups
+_autosave-*
+*-save.kicad_pcb
+*-save.kicad_sch
+*.kicad_pcb-bak
+*.sch-bak
+/*-backups/*
+# Keep intentionally named layout snapshots.
+!/*-backups/Before_*.zip
+
+# macOS metadata
+.DS_Store

@@ -1,0 +1,34 @@
+90 x 65 mm Y-axis channel arrangement - 2026-11-18
+
+Three channels retain the user's original amplifier/ADC orientation.
+CH0, CH1 and CH2 have identical main-component X coordinates and a 21.40 mm Y pitch.
+The three NJM2732 amplifiers and the ADS8331 in each channel retain the exact relative positions of the user-revised source block; no block rotation was applied.
+Input filters, bypass capacitors, gain switches/resistors and connectors were adjusted where the Pico or mounting clearance required it. Repeated peripheral placement was used across channels wherever possible.
+USB faces left; the three analog input connectors face right, ordered CH0/CH1/CH2 from top to bottom.
+
+Board: 90.00 x 65.00 mm, 1.6 mm FR-4, four copper layers.
+All 159 components are on the front.
+Four 3.20 mm NPTH hole centres are exactly 5.00 mm from both adjacent edges; footprints and outline are locked.
+Minimum track width: 0.20 mm. Copper clearance: 0.15 mm. Smallest via: 0.50 / 0.20 mm.
+
+F.Cu: horizontal preferred for new routing.
+In1.Cu: continuous GND plane only; one filled connected region.
+In2.Cu: +5V and +3V3 power planes only; each a single filled connected region.
+B.Cu: vertical preferred for new routing.
+There are no signal tracks on either inner layer. Existing short local analog copper was retained where possible, including some 45-degree segments.
+New routing prioritizes Manhattan distance and fewer layer transitions. Several longer runs were simplified after routing.
+Vias: 241, down from 326 in the previous 90 x 50 mm revision (85 fewer, about 26%).
+The ADC reference spines were shifted 0.80 mm inside the ADC bodies to make room for control-pin escapes.
+
+Pico uses the project-local BoardParts:RPi_Pico_SMD_TH_Compact footprint, with its original through-hole and pin locations.
+As in the previous compact revision, outer SMD land toes are 2.85 mm long rather than 3.50 mm.
+The Pico module body has about 0.26 mm overhang at the USB-side board edge; all copper lands remain inside the board. The minimum copper-to-edge distance passes the 0.30 mm rule.
+Schematic sheets and GPIO assignments were not changed in this revision.
+
+KiCad 8.0.9 DRC after filling all zones:
+  Routing/physical violations: 0
+  Unconnected items: 0
+  Schematic parity issues: 6, all existing unused Pico pins 44-49 without matching footprint pads.
+
+Backup of the previous installed revision:
+  Small_digital_pseudo_lockinamp-backups/Before_Yrow_2026-11-18.zip

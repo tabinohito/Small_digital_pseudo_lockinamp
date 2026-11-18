@@ -1,0 +1,32 @@
+{
+  "width_mm": 90,
+  "height_mm": 65,
+  "components": 159,
+  "front_components": 159,
+  "inner_signal_tracks": 0,
+  "min_track_mm": 0.2,
+  "vias": 241,
+  "previous_vias": 326,
+  "channel_pitch_mm": 21.4,
+  "major_parts_original_orientation": true,
+  "zones": [
+    {
+      "layer": "GND",
+      "net": "GND",
+      "filled_regions": 1,
+      "area_mm2": 5349.543057685376
+    },
+    {
+      "layer": "POWER",
+      "net": "+3V3",
+      "filled_regions": 1,
+      "area_mm2": 2264.709864790531
+    },
+    {
+      "layer": "POWER",
+      "net": "+5V",
+      "filled_regions": 1,
+      "area_mm2": 2953.9925465006113
+    }
+  ]
+}

@@ -1174,6 +1174,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 78.74) (xy 220.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148e1b9e-fa7c-4deb-8f7a-7d0eb9bc2fde")
+	)
+	(wire
+		(pts
 			(xy 166.37 76.2) (xy 166.37 69.85)
 		)
 		(stroke
@@ -1514,6 +1524,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 76.2) (xy 220.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5f1f8f-1605-4f6a-94c7-a73ef48ca704")
+	)
+	(wire
+		(pts
 			(xy 140.97 78.74) (xy 140.97 81.28)
 		)
 		(stroke
@@ -1735,6 +1755,17 @@
 		)
 		(uuid "09451e84-e9ba-4593-8f39-f4f513e160a9")
 	)
+	(hierarchical_label "GAIN_A"
+		(shape input)
+		(at 220.98 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a114553-6522-4d55-a977-3008fa93f088")
+	)
 	(hierarchical_label "4V096"
 		(shape input)
 		(at 208.28 81.28 0)
@@ -1823,6 +1854,17 @@
 		)
 		(uuid "9528de7b-f862-4606-ae8b-a1b94d9653db")
 	)
+	(hierarchical_label "GAIN_B"
+		(shape input)
+		(at 220.98 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdc764d9-0b61-4973-8997-cc17c7950387")
+	)
 	(hierarchical_label "EOC"
 		(shape output)
 		(at 86.36 93.98 180)
@@ -1843,7 +1885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04c1a389-e966-4fb7-b2fc-41289173c8f5")
-		(property "Reference" "C402"
+		(property "Reference" "C202"
 			(at 163.83 95.2562 0)
 			(effects
 				(font
@@ -1896,6 +1938,10 @@
 		)
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
+				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
+					(reference "C202")
+					(unit 1)
+				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
 					(reference "C602")
 					(unit 1)
@@ -1916,7 +1962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b753a8d-d57f-4055-8962-c8911a827527")
-		(property "Reference" "C203"
+		(property "Reference" "C204"
 			(at 185.42 95.2562 0)
 			(effects
 				(font
@@ -1970,7 +2016,7 @@
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
-					(reference "C203")
+					(reference "C204")
 					(unit 1)
 				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
@@ -1994,7 +2040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36e39f8f-b4a1-4da2-9286-2e0918a07983")
-		(property "Reference" "#PWR402"
+		(property "Reference" "#PWR202"
 			(at 154.94 66.04 0)
 			(effects
 				(font
@@ -2043,6 +2089,10 @@
 		)
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
+				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
+					(reference "#PWR202")
+					(unit 1)
+				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
 					(reference "#PWR602")
 					(unit 1)
@@ -2064,7 +2114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5631dc39-f3f8-44d7-b567-f24d4ff5ac80")
-		(property "Reference" "C202"
+		(property "Reference" "C203"
 			(at 173.99 95.2562 0)
 			(effects
 				(font
@@ -2118,7 +2168,7 @@
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
-					(reference "C202")
+					(reference "C203")
 					(unit 1)
 				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
@@ -2141,7 +2191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c6404fc-bcd5-44c5-afb6-a91ea89602e4")
-		(property "Reference" "C205"
+		(property "Reference" "C201"
 			(at 152.146 87.376 90)
 			(effects
 				(font
@@ -2195,7 +2245,7 @@
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
-					(reference "C205")
+					(reference "C201")
 					(unit 1)
 				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
@@ -2433,7 +2483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adfe8614-0152-4baf-8faf-e102f9726844")
-		(property "Reference" "#PWR403"
+		(property "Reference" "#PWR203"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -2482,6 +2532,10 @@
 		)
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
+				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
+					(reference "#PWR203")
+					(unit 1)
+				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
 					(reference "#PWR603")
 					(unit 1)
@@ -2503,7 +2557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ef4fa8-0d4a-4f51-a069-52f1a5bfc80d")
-		(property "Reference" "C204"
+		(property "Reference" "C205"
 			(at 195.58 95.2562 0)
 			(effects
 				(font
@@ -2557,7 +2611,7 @@
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
-					(reference "C204")
+					(reference "C205")
 					(unit 1)
 				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
@@ -2581,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc077d8-6851-4ce1-a58d-3aebddba8e76")
-		(property "Reference" "#PWR401"
+		(property "Reference" "#PWR201"
 			(at 151.13 115.57 0)
 			(effects
 				(font
@@ -2630,6 +2684,10 @@
 		)
 		(instances
 			(project "Small_digital_pseudo_lockinamp"
+				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/29e90e4e-0d36-41ce-a204-ddf35cc08885"
+					(reference "#PWR201")
+					(unit 1)
+				)
 				(path "/df744a94-e97d-45a3-b6c1-20a14682d613/9c1a7bd0-6f0c-4ed4-a98c-e1dce402424c"
 					(reference "#PWR601")
 					(unit 1)
@@ -2643,7 +2701,7 @@
 	)
 	(sheet
 		(at 176.53 66.802)
-		(size 21.59 11.176)
+		(size 21.59 16.256)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2663,7 +2721,7 @@
 			)
 		)
 		(property "Sheetfile" "PDM_TIA.kicad_sch"
-			(at 176.53 78.5626 0)
+			(at 176.53 83.6426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,6 +2788,26 @@
 				(justify right)
 			)
 			(uuid "a237c78c-8a61-4f93-ae62-0daa0b469eb6")
+		)
+		(pin "GAIN_A" input
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec9e4af9-756a-4903-b013-138caec5f0d5")
+		)
+		(pin "GAIN_B" input
+			(at 198.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ab8b48f-c0cd-458a-ba0b-b3d19c90f2dd")
 		)
 		(instances
 			(project "Small_digital_pseudo_lockinamp"

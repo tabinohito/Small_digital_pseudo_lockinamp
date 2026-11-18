@@ -1,0 +1,101 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-18T14:16:30+0900",
+    "kicad_version": "8.0.9",
+    "schematic_parity": [
+        {
+            "description": "回路図のピン 49 のパッドが見つかりません。",
+            "items": [
+                {
+                    "description": "フットプリント J101",
+                    "pos": {
+                        "x": 75.3,
+                        "y": 82.5
+                    },
+                    "uuid": "e35ef59f-6169-4f28-b6ec-45fa8d2bb8cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "回路図のピン 47 のパッドが見つかりません。",
+            "items": [
+                {
+                    "description": "フットプリント J101",
+                    "pos": {
+                        "x": 75.3,
+                        "y": 82.5
+                    },
+                    "uuid": "e35ef59f-6169-4f28-b6ec-45fa8d2bb8cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "回路図のピン 48 のパッドが見つかりません。",
+            "items": [
+                {
+                    "description": "フットプリント J101",
+                    "pos": {
+                        "x": 75.3,
+                        "y": 82.5
+                    },
+                    "uuid": "e35ef59f-6169-4f28-b6ec-45fa8d2bb8cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "回路図のピン 44 のパッドが見つかりません。",
+            "items": [
+                {
+                    "description": "フットプリント J101",
+                    "pos": {
+                        "x": 75.3,
+                        "y": 82.5
+                    },
+                    "uuid": "e35ef59f-6169-4f28-b6ec-45fa8d2bb8cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "回路図のピン 45 のパッドが見つかりません。",
+            "items": [
+                {
+                    "description": "フットプリント J101",
+                    "pos": {
+                        "x": 75.3,
+                        "y": 82.5
+                    },
+                    "uuid": "e35ef59f-6169-4f28-b6ec-45fa8d2bb8cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "回路図のピン 46 のパッドが見つかりません。",
+            "items": [
+                {
+                    "description": "フットプリント J101",
+                    "pos": {
+                        "x": 75.3,
+                        "y": 82.5
+                    },
+                    "uuid": "e35ef59f-6169-4f28-b6ec-45fa8d2bb8cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "Small_digital_pseudo_lockinamp.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

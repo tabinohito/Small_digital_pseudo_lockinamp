@@ -1,0 +1,6 @@
+(fp_lib_table
+ (version 7)
+ (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/BoardParts.pretty")(options "")(descr "Project copy of used SamacSys footprints"))
+ (lib (name "Kicad_Myfp")(type "KiCad")(uri "${KIPRJMOD}/BoardParts.pretty")(options "")(descr "Project copy of used custom footprints"))
+ (lib (name "BoardParts")(type "KiCad")(uri "${KIPRJMOD}/BoardParts.pretty")(options "")(descr "Footprints adjusted for this board"))
+)
